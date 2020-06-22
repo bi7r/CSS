@@ -1,0 +1,134 @@
+/************************************* TAG SELECTORS *************************************/
+body {
+  background-color: #FFFFFF;
+  margin: 0;
+  text-align: center;
+  font-family: 'Montserrat', sans-serif;
+  height: 100%;
+}
+
+
+p {
+  margin-top: 0;
+  color: #40514E;
+  line-height: 2;
+  font-weight: bold;
+}
+
+h2 {
+  color: #66BFBF;
+}
+h3 {
+  color: #11999E;
+}
+hr {
+  border-style: dotted none none;
+  border-width: 4px;
+  width: 3%;
+  height: 7px;
+  color: #d1d1d1;
+  margin: 60px auto;
+}
+a {
+  color: #11999E;
+  margin: auto 20px;
+}
+/*************************************CLASS SELECTORS*************************************/
+.headings {
+  margin: 40px auto 0 0;
+  color: #66BFBF;
+  font-family: 'Sacramento', cursive;
+  font-weight: 200;
+  font-size: 90px;
+  line-height: 2;
+}
+
+.top-container {
+  background-color: #EAF6F6;
+  position: relative;
+  padding-top: 60px;
+}
+
+.toph2{
+  font-size: 1.2rem;
+  font-weight: 100;
+  margin: 0 auto 0;
+}
+
+.top-cloud {
+  position: absolute;
+  top: 110px;
+  right: 300px;
+}
+
+.bottom-cloud {
+  position: absolute;
+  top: 330px;
+  left: 300px;
+}
+
+.middle-container {
+  margin-top: 0;
+  padding-top: 50px;
+}
+
+.skill-row {
+  width: 50%;
+  margin: 100px auto;
+  text-align: left;
+}
+
+.codeimg {
+  width: 25%;
+  float: left;
+  margin-right: 10px;
+}
+.animeimg {
+  width: 25%;
+  float: right;
+  margin-left: 10px;
+}
+.contact-me {
+  margin: 20px auto;
+  width: 50%;
+}
+
+.myButton {
+	background:linear-gradient(to bottom, #11999e 5%, #66bfbf 100%);
+	background-color:#11999e;
+	border-radius:28px;
+	border:1px solid #11999e;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:17px;
+	padding:16px 31px;
+	text-decoration:none;
+	text-shadow:0 1px 0 #2f6627;
+  margin: 30px auto;
+}
+.myButton:hover {
+	background:linear-gradient(to bottom, #66bfbf 5%, #11999e 100%);
+	background-color:#66bfbf;
+}
+.myButton:active {
+	position:relative;
+	top:1px;
+}
+
+.bottom-container {
+  margin-top: 0;
+  background-color: #66BFBF;
+  position: relative;
+  padding-top: 15px;
+}
+
+.final-line {
+color: #EAF6F6;
+line-height: normal;
+font-weight: 300;
+margin: 0 auto;
+padding-bottom: 30px;
+}
+/************************************* ID  SELECTORS *************************************/
